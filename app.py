@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 import pickle
 from streamlit_option_menu import option_menu
+import catboost
 
 agri_pro_model = pickle.load(open('pipe.pkl','rb'))
 
